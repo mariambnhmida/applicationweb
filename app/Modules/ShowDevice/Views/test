@@ -1,0 +1,6 @@
+                            @for($i=0;$i<count($show_devices);$i++)
+                            {{$showdevice->id}}
+                            @if($i==10)
+                            @break
+                            @endif
+                        @endfor
